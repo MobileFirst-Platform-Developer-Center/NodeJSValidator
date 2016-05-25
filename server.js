@@ -26,4 +26,7 @@ app.get('/getBalance', passport.authenticate('mobilefirst-strategy', {
         res.send('17364');
     });
 
-app.listen(3000);
+var server = app.listen(3000, function() {
+    var port = server.address().port
+    console.log("Sample app listening at http://localhost:%s", port)
+});
