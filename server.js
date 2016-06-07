@@ -3,7 +3,7 @@ var passport = require('passport-mfp-token-validation').Passport;
 var mfpStrategy = require('passport-mfp-token-validation').Strategy;
 
 passport.use(new mfpStrategy({
-    authServerUrl: 'http://localhost:9080/mfp/api/az/v1',
+    authServerUrl: 'http://localhost:9080/mfp/api',
     confClientID: 'testclient',
     confClientPass: 'testclient',
     analytics: {
