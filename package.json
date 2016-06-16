@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "dependencies": {
     "express": "latest",
-    "passport": "latest",
     "passport-mfp-token-validation": "latest"
   },
   "author": "IBM MobileFirst Platform Foundation",
